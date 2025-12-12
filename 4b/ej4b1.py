@@ -18,28 +18,6 @@ Ejemplo:
     Salida:
     101
     101
-
-Enunciat:
-Implementa la funció 'squared_sum_ram(numbers_list)' que rep una llista de números
-enters i calculeu la suma dels seus valors al quadrat. Cal utilitzar un bucle 'for'
-per il·lustrar l'ús de la RAM.
-
-La funció 'squared_sum_heap(numbers_list)' ja està implementada i ha d'emmagatzemar la
-suma dels valors al quadrat al Heap. No obstant això, hi ha un error en aquest càlcul 
-identifica'l i corregeix-lo.
-
-Paràmetres:
-     - numbers_list: Llista de nombres enters.
-
-Exemple:
-     Entrada:
-     squared_sum_ram([6, 4, 7])
-     squared_sum_heap([6, 4, 7])
-
-     Sortida:
-     101
-     101
-
 """
 
 
