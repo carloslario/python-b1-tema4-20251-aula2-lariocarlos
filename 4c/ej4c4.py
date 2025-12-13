@@ -34,7 +34,8 @@ class Animal(ABC):
     def talk(self):
         pass
 
-# Corret and overwrite class Dog(Animal) here 
+# Corret and overwrite class Dog(Animal) here
+# Clase Dog que implementa la interfaz
 class Dog(Animal):
     def __init__(self, name):
         self.name = name
@@ -43,22 +44,18 @@ class Dog(Animal):
         return "¡Guau!"
 
 # Corret and overwrite class Cat(Animal) here 
-class Cat():
+class Cat(Animal):
     def __init__(self, name):
         self.name = name
     def talk(self):
         return "¡Meow!"
 
 # Corret and overwrite class Parrot(Animal) here 
-class Parrot():
+class Parrot(Animal):
     def __init__(self, name):
         self.name = name
     def talk(self):
         return "Polly"
-
-
-
-
 
 # Si quieres probar tu código, descomenta las siguientes líneas y ejecuta el script
 

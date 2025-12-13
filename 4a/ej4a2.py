@@ -26,7 +26,7 @@ def count_fruits(fruits_list):
     fruit_count = {}
     for fruit in fruits_list:
         if fruit in fruit_count:
-            fruit_count[fruit] += 1
+            fruit_count[fruit] += 1 #la clave es actualizar el valor de conteo en cada iteracion
         else:
             fruit_count[fruit] = 1
     return fruit_count

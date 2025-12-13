@@ -47,10 +47,13 @@ class Shape:
     
 # Corret and overwrite class Triangle(Shape) here
 class Triangle(Shape):
+    #en cada "hijo" en el contrustor "init" se implementan todos los atributos del nuevo hijo
     def __init__(self, sides, base, height):
+        #Permite a la clase hija acceder a los métodos de la clase padre
+        #Esto asegura que los atributos heredados se inicialicen correctamente sin tener que reescribir el código.
         super().__init__(sides)
-        self.base = base
-        self.height = height        
+        self.base = base # Nuevo atributo específico
+        self.height = height # Nuevo atributo específico       
         pass
 
     def get_area(self):
